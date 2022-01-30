@@ -7,7 +7,7 @@
     "test": "jest",
     "dev": "nodemon --watch \"server/src/**\" --ext \"ts,json\" --ignore \"**/*.spec.ts\" --exec \" ts-node src/server.ts\"",
     "build": "npx tsc",
-    "start": "node server/dist/server.js"
+    "start": "node server/dist/src/server.js"
   },
   "author": "",
   "license": "ISC",
