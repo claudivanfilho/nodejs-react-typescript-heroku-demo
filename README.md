@@ -1,7 +1,5 @@
 # Pronewords
 
-![Travis Build]()
-
 Basic demonstration of a NodeJS+React+Typescript project.
 
 ## Running Locally
@@ -35,3 +33,5 @@ $ cd server && yarn test
 The deployment is made using heroku
 
 ## Demo
+
+https://phonewords-generator.herokuapp.com/

@@ -57,28 +57,170 @@ exports[`Test Initial Page should match with snapshot 1`] = `
             DE
           </option>
         </select>
-        <div
-          class="flex items-center text-xl font-bold cursor-pointer lg:hidden"
-        >
-          <svg
-            aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
-            focusable="false"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
-            />
-          </svg>
-          Back
-        </div>
       </div>
     </div>
     <main
-      class="overflow-y-auto"
-      style="height: calc(100vh - 135px);"
+      class="flex max-w-screen-xl mx-auto gap-9"
     >
-      Test
+      <div
+        class="flex flex-col w-1/2"
+      >
+        <h1
+          class="my-3 text-2xl font-bold text-gray-600 uppercase"
+        >
+          Type your number sequence
+        </h1>
+        <div
+          class="flex items-center h-16 px-2 py-3 text-lg text-gray-600 uppercase"
+        />
+        <div>
+          <div
+            class="grid grid-cols-3 grid-row"
+          >
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                1
+              </span>
+              <span
+                class="text-gray-700"
+              />
+            </button>
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                2
+              </span>
+              <span
+                class="text-gray-700"
+              >
+                abc
+              </span>
+            </button>
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                3
+              </span>
+              <span
+                class="text-gray-700"
+              >
+                def
+              </span>
+            </button>
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                4
+              </span>
+              <span
+                class="text-gray-700"
+              >
+                ghi
+              </span>
+            </button>
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                5
+              </span>
+              <span
+                class="text-gray-700"
+              >
+                jkl
+              </span>
+            </button>
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                6
+              </span>
+              <span
+                class="text-gray-700"
+              >
+                mno
+              </span>
+            </button>
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                7
+              </span>
+              <span
+                class="text-gray-700"
+              >
+                pqrs
+              </span>
+            </button>
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                8
+              </span>
+              <span
+                class="text-gray-700"
+              >
+                tuv
+              </span>
+            </button>
+            <button
+              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            >
+              <span
+                class="text-2xl"
+              >
+                9
+              </span>
+              <span
+                class="text-gray-700"
+              >
+                wxyz
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col w-1/2"
+      >
+        <h1
+          class="my-3 text-2xl font-bold text-gray-600 uppercase"
+        >
+          Phonewords combinations
+        </h1>
+        <div
+          class="mt-3 overflow-y-auto"
+          style="height: calc(100vh - 235px);"
+        >
+          <div
+            class="flex flex-wrap "
+          />
+        </div>
+      </div>
     </main>
     <footer
       class="fixed bottom-0 w-full py-2 text-sm font-bold text-center text-white bg-green-700"

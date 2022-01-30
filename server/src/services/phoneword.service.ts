@@ -12,19 +12,22 @@ const digitLetterMap: Record<string, string[]> = {
 
 export default function getT9ExpansionsOfNumber(numberString: string) {
   if (!numberString) return [];
-  let phoneWords = [...digitLetterMap[numberString[0]]];
-  numberString
-    .slice(1)
-    .split("")
-    .reverse()
-    .forEach((digitFromQueryString) => {
-      const newArray = [];
-      phoneWords.forEach((temporaryPhoneWord) => {
-        digitLetterMap[digitFromQueryString].forEach((letterFromDigit) => {
-          newArray.push(`${temporaryPhoneWord}${letterFromDigit}`);
+  let phoneWords: string[] = [];
+  numberString.split("").forEach((digitFromQueryString) => {
+    const lettersFromDigit = digitLetterMap[digitFromQueryString];
+    if (lettersFromDigit.length) {
+      if (!phoneWords.length) {
+        phoneWords = [...lettersFromDigit];
+      } else {
+        const newArray = [];
+        phoneWords.forEach((temporaryPhoneWord) => {
+          lettersFromDigit.forEach((letterFromDigit) => {
+            newArray.push(`${temporaryPhoneWord}${letterFromDigit}`);
+          });
         });
-      });
-      phoneWords = newArray;
-    });
+        phoneWords = newArray;
+      }
+    }
+  });
   return phoneWords;
 }

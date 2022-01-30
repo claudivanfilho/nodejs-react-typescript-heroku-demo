@@ -6,6 +6,9 @@ const inputExpectedMap = {
   "2": ["a", "b", "c"],
   "23": ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"],
   "32": ["da", "db", "dc", "ea", "eb", "ec", "fa", "fb", "fc"],
+  "132": ["da", "db", "dc", "ea", "eb", "ec", "fa", "fb", "fc"],
+  "312": ["da", "db", "dc", "ea", "eb", "ec", "fa", "fb", "fc"],
+  "321": ["da", "db", "dc", "ea", "eb", "ec", "fa", "fb", "fc"],
 };
 
 describe("test getT9ExpansionsOfNumber function", () => {
