@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "heroku-prebuild": "cd front && npm install && npm run build && cd .. && cd server && npm install && npm run build",
-    "start": "cd server && node dist/server.js"
+    "heroku-prebuild": "cd front && yarn install && yarn build && cd ../server && yarn install && yarn build",
+    "start": "cd server && node dist/src/server.js"
+  },
+  "engines": {
+    "yarn": "1.x"
   }
 }

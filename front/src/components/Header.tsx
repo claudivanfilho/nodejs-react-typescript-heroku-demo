@@ -1,14 +1,8 @@
-import { ChevronLeft } from "@material-ui/icons";
-import { useIntl } from "react-intl";
-import { useNavigate } from "react-router-dom";
-
 import { LANGS } from "../config/constants";
 import useLocale from "../hooks/useLocale";
 
 const Header = () => {
-  const navigate = useNavigate();
   const { locale, setLocale } = useLocale();
-  const { formatMessage } = useIntl();
 
   return (
     <div className="fixed top-0 z-10 w-full py-3 text-white bg-green-700">
@@ -27,13 +21,6 @@ const Header = () => {
             </option>
           ))}
         </select>
-        <div
-          className="flex items-center text-xl font-bold cursor-pointer lg:hidden"
-          onClick={() => navigate(-1)}
-        >
-          <ChevronLeft fontSize="large" />
-          {formatMessage({ id: "back-btn" })}
-        </div>
       </div>
     </div>
   );
