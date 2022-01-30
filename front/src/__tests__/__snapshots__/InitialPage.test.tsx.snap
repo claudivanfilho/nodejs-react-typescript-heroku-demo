@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Initial Page should match with snapshot 1`] = `
+exports[`Test Initial Page should match with snapshot when rendered 1`] = `
 <div>
   <div
     class="h-screen pt-14"
@@ -60,165 +60,177 @@ exports[`Test Initial Page should match with snapshot 1`] = `
       </div>
     </div>
     <main
-      class="flex max-w-screen-xl mx-auto gap-9"
+      class="flex max-w-screen-xl px-5 mx-auto"
     >
       <div
-        class="flex flex-col w-1/2"
+        class="flex flex-col w-full lg:flex-row lg:gap-6"
       >
-        <h1
-          class="my-3 text-2xl font-bold text-gray-600 uppercase"
-        >
-          Type your number sequence
-        </h1>
         <div
-          class="flex items-center h-16 px-2 py-3 text-lg text-gray-600 uppercase"
-        />
-        <div>
-          <div
-            class="grid grid-cols-3 grid-row"
+          class="flex flex-col w-full lg:w-1/2"
+        >
+          <h1
+            class="my-3 text-2xl font-bold tracking-wide text-gray-600"
           >
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+            Type your number sequence
+          </h1>
+          <div
+            class="flex items-center h-16 px-2 py-3 text-lg"
+          />
+          <div>
+            <div
+              class="grid grid-cols-3 grid-row"
             >
-              <span
-                class="text-2xl"
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-1"
               >
-                1
-              </span>
-              <span
-                class="text-gray-700"
-              />
-            </button>
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
-            >
-              <span
-                class="text-2xl"
+                <span
+                  class="text-2xl"
+                >
+                  1
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                />
+              </button>
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-2"
               >
-                2
-              </span>
-              <span
-                class="text-gray-700"
+                <span
+                  class="text-2xl"
+                >
+                  2
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                >
+                  abc
+                </span>
+              </button>
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-3"
               >
-                abc
-              </span>
-            </button>
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
-            >
-              <span
-                class="text-2xl"
+                <span
+                  class="text-2xl"
+                >
+                  3
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                >
+                  def
+                </span>
+              </button>
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-4"
               >
-                3
-              </span>
-              <span
-                class="text-gray-700"
+                <span
+                  class="text-2xl"
+                >
+                  4
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                >
+                  ghi
+                </span>
+              </button>
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-5"
               >
-                def
-              </span>
-            </button>
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
-            >
-              <span
-                class="text-2xl"
+                <span
+                  class="text-2xl"
+                >
+                  5
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                >
+                  jkl
+                </span>
+              </button>
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-6"
               >
-                4
-              </span>
-              <span
-                class="text-gray-700"
+                <span
+                  class="text-2xl"
+                >
+                  6
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                >
+                  mno
+                </span>
+              </button>
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-7"
               >
-                ghi
-              </span>
-            </button>
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
-            >
-              <span
-                class="text-2xl"
+                <span
+                  class="text-2xl"
+                >
+                  7
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                >
+                  pqrs
+                </span>
+              </button>
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-8"
               >
-                5
-              </span>
-              <span
-                class="text-gray-700"
+                <span
+                  class="text-2xl"
+                >
+                  8
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                >
+                  tuv
+                </span>
+              </button>
+              <button
+                class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
+                data-testid="digit-button-9"
               >
-                jkl
-              </span>
-            </button>
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
-            >
-              <span
-                class="text-2xl"
-              >
-                6
-              </span>
-              <span
-                class="text-gray-700"
-              >
-                mno
-              </span>
-            </button>
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
-            >
-              <span
-                class="text-2xl"
-              >
-                7
-              </span>
-              <span
-                class="text-gray-700"
-              >
-                pqrs
-              </span>
-            </button>
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
-            >
-              <span
-                class="text-2xl"
-              >
-                8
-              </span>
-              <span
-                class="text-gray-700"
-              >
-                tuv
-              </span>
-            </button>
-            <button
-              class="flex flex-col items-center p-4 m-2 font-bold text-green-700 rounded-xl bg-slate-300 hover:scale-110"
-            >
-              <span
-                class="text-2xl"
-              >
-                9
-              </span>
-              <span
-                class="text-gray-700"
-              >
-                wxyz
-              </span>
-            </button>
+                <span
+                  class="text-2xl"
+                >
+                  9
+                </span>
+                <span
+                  class="tracking-widest text-gray-700"
+                >
+                  wxyz
+                </span>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        class="flex flex-col w-1/2"
-      >
-        <h1
-          class="my-3 text-2xl font-bold text-gray-600 uppercase"
-        >
-          Phonewords combinations
-        </h1>
         <div
-          class="mt-3 overflow-y-auto"
-          style="height: calc(100vh - 235px);"
+          class="flex flex-col w-full lg:w-1/2"
         >
+          <h1
+            class="my-3 text-2xl font-bold tracking-wide text-gray-600"
+          >
+            Phonewords combinations
+          </h1>
           <div
-            class="flex flex-wrap "
-          />
+            class="mt-3 overflow-y-auto h-2/3 lg:h-4/5"
+          >
+            <div
+              class="flex flex-wrap "
+            />
+          </div>
         </div>
       </div>
     </main>
