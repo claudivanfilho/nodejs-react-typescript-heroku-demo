@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="2.736">
+  <testsuite name="Test routes" errors="0" failures="0" skipped="0" timestamp="2022-01-30T00:54:25" time="2.372" tests="1">
+    <testcase classname="Test routes test" name="Test routes test" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="test getT9ExpansionsOfNumber function" errors="0" failures="0" skipped="0" timestamp="2022-01-30T00:54:25" time="2.419" tests="5">
+    <testcase classname="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input 1" name="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input 1" time="0.001">
+    </testcase>
+    <testcase classname="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input 2" name="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input 2" time="0.001">
+    </testcase>
+    <testcase classname="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input 23" name="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input 23" time="0">
+    </testcase>
+    <testcase classname="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input 32" name="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input 32" time="0.003">
+    </testcase>
+    <testcase classname="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input " name="test getT9ExpansionsOfNumber function shoud return the expected phoneword list to the input " time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
