@@ -4,6 +4,7 @@
     "start": "cd server && node dist/src/server.js"
   },
   "engines": {
-    "yarn": "1.x"
+    "yarn": "1.x",
+    "node": ">=14"
   }
 }
