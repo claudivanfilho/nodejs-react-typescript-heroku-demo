@@ -1,8 +1,7 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
-import { BrowserRouter as Router } from "react-router-dom";
 
-import App from "../App";
-import * as ApiService from "../services/api.service";
+import App from "../../App";
+import * as ApiService from "../../services/api.service";
 
 /**
  * All the tests are driven by the user behavior, testing each isolated component infers in a test tightly coupled with code implementation.
@@ -10,11 +9,7 @@ import * as ApiService from "../services/api.service";
  */
 describe("Test Initial Page", () => {
   function setup() {
-    return render(
-      <Router>
-        <App />
-      </Router>
-    );
+    return render(<App />);
   }
 
   it("should match with snapshot when rendered", () => {

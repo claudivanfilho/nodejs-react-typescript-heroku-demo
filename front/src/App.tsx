@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import "./index.css";
 
 import { IntlProviderLocal } from "./context/IntlContextLocal";
 import { LocaleProvider } from "./context/LocaleContext";
@@ -8,9 +8,7 @@ export default function App() {
   return (
     <LocaleProvider>
       <IntlProviderLocal>
-        <Routes>
-          <Route path="/" element={<BaseLayout />} />
-        </Routes>
+        <BaseLayout />
       </IntlProviderLocal>
     </LocaleProvider>
   );
