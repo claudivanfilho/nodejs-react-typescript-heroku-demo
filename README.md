@@ -6,9 +6,13 @@ Basic demonstration of a NodeJS+React+Typescript project.
 
 ```
 // setup
+$ yarn install
 $ cd front && yarn install
-// run dev server
-$ cd front && yarn start
+$ cd server && yarn install
+
+// run front-end and back-end in development mode
+$ yarn dev
+
 ```
 
 ## Tests
