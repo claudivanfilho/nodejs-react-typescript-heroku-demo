@@ -1,4 +1,4 @@
-# Pronewords
+# Phonewords
 
 Basic demonstration of a NodeJS+React+Typescript project.
 
@@ -6,11 +6,9 @@ Basic demonstration of a NodeJS+React+Typescript project.
 
 ```
 // setup
-$ yarn install
-$ cd front && yarn install
-$ cd server && yarn install
+$ yarn setup
 
-// run front-end and back-end in development mode
+// run front adn back in development mode
 $ yarn dev
 
 ```
@@ -26,8 +24,9 @@ The test cases are based in a serie of articles:
 To run the tests, run the command:
 
 ```
-// front end tests
-$ cd front && yarn test
+// front end unit and e2e tests
+$ cd front && yarn test-all
+
 // back end tests
 $ cd server && yarn test
 ```
