@@ -8,14 +8,13 @@ Basic demonstration of a NodeJS+React+Typescript project.
 // setup
 $ yarn setup
 
-// run front adn back in development mode
+// running front and back in development mode
 $ yarn dev
-
 ```
 
 ## Tests
 
-The test cases are based in a serie of articles:
+The front-end test cases are based in a serie of articles:
 
 - https://kentcdodds.com/blog/why-i-never-use-shallow-rendering
 - https://kentcdodds.com/blog/testing-implementation-details
@@ -24,16 +23,16 @@ The test cases are based in a serie of articles:
 To run the tests, run the command:
 
 ```
-// front end unit and e2e tests
+// front-end unit and e2e tests
 $ cd front && yarn test-all
 
-// back end tests
+// back-end tests
 $ cd server && yarn test
 ```
 
 ## Deployment
 
-The deployment is made using heroku
+The deployment is done using heroku
 
 ## Demo
 
