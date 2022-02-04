@@ -38,10 +38,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test \"__tests__/unit/.*\\.spec\\.tsx?\"",
     "eject": "react-scripts eject",
     "test-cy": "cypress run-ct",
-    "test-all": "yarn test && yarn test-all"
+    "test-all": "yarn test --watchAll=false && yarn test-cy"
   },
   "eslintConfig": {
     "extends": [

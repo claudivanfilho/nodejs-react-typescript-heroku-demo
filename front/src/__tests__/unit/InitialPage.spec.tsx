@@ -1,7 +1,7 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 
-import App from "../App";
-import * as ApiService from "../services/api.service";
+import App from "../../App";
+import * as ApiService from "../../services/api.service";
 
 /**
  * All the tests are driven by the user behavior, testing each isolated component infers in a test tightly coupled with code implementation.
