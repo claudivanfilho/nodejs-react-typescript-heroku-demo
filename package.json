@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "setup": "cd front && yarn install && cd ../server && yarn install",
+    "setup": "yarn install && cd front && yarn install && cd ../server && yarn install",
     "heroku-prebuild": "cd front && yarn install && yarn build && cd ../server && yarn install && yarn build",
     "start": "cd server && node dist/src/server.js",
     "start-front": "cd front && yarn start",

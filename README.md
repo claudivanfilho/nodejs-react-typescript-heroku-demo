@@ -1,5 +1,7 @@
 # Phonewords
 
+[![Node](https://img.shields.io/badge/Node->=14.17.6-green.svg)](https://shields.io/)
+
 Basic demonstration of a NodeJS+React+Typescript project.
 
 ## Running Locally
