@@ -11,5 +11,5 @@
   },
   "include": ["src", "__tests__"],
   "exclude": ["dist"],
-  "lib": ["es2015"]
+  "lib": ["es2017"]
 }
