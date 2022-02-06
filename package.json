@@ -6,10 +6,10 @@
     "build-front": "cd front && yarn build",
     "build-server": "cd server && yarn build",
     "build": "yarn build-front && yarn build-server",
-    "start-front": "cd front && yarn start",
-    "start-server": "cd server && yarn dev",
+    "dev-front": "cd front && yarn start",
+    "dev-server": "cd server && yarn dev",
+    "dev": "concurrently --kill-others \"yarn dev-front\" \"yarn dev-server\"",
     "start": "cd server && node dist/src/server.js",
-    "dev": "concurrently --kill-others \"yarn start-front\" \"yarn start-server\"",
     "heroku-prebuild": "yarn setup && yarn build"
   },
   "engines": {
