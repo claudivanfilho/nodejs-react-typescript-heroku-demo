@@ -1,11 +1,16 @@
 {
   "scripts": {
-    "setup": "yarn install && cd front && yarn install && cd ../server && yarn install",
-    "heroku-prebuild": "cd front && yarn install && yarn build && cd ../server && yarn install && yarn build",
-    "start": "cd server && node dist/src/server.js",
+    "setup-front": "cd front && yarn install",
+    "setup-server": "cd server && yarn install",
+    "setup": "yarn install && yarn setup-front && yarn setup-server",
+    "build-front": "cd front && yarn build",
+    "build-server": "cd server && yarn build",
+    "build": "yarn build-front && yarn build-server",
     "start-front": "cd front && yarn start",
     "start-server": "cd server && yarn dev",
-    "dev": "concurrently --kill-others \"yarn start-front\" \"yarn start-server\""
+    "start": "cd server && node dist/src/server.js",
+    "dev": "concurrently --kill-others \"yarn start-front\" \"yarn start-server\"",
+    "heroku-prebuild": "yarn setup && yarn build"
   },
   "engines": {
     "yarn": "1.x",
