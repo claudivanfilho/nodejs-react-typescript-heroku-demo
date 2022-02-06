@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "setup-front": "cd front && yarn install --only=dev",
-    "setup-server": "cd server && yarn install --only=dev",
+    "setup-front": "cd front && NODE_ENV=development yarn install",
+    "setup-server": "cd server && && NODE_ENV=development yarn install",
     "setup": "yarn install && yarn setup-front && yarn setup-server",
     "build-front": "cd front && yarn build",
     "build-server": "cd server && yarn build",
